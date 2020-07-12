@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22B701D824BB170C00AB01F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B701D724BB170C00AB01F0 /* Assets.xcassets */; };
+		22B701E624BB17D600AB01F0 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B701E524BB17D600AB01F0 /* Main.cpp */; };
+		7FCF11D86A300B57B43BAD5D /* Pods_CharlesColorMixing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADF0941D69DDA13A97E23C5 /* Pods_CharlesColorMixing.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04558EC6ADABBD0AD43D0288 /* Pods-CharlesColorMixing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharlesColorMixing.debug.xcconfig"; path = "Target Support Files/Pods-CharlesColorMixing/Pods-CharlesColorMixing.debug.xcconfig"; sourceTree = "<group>"; };
+		0ADF0941D69DDA13A97E23C5 /* Pods_CharlesColorMixing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CharlesColorMixing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B701CE24BB170600AB01F0 /* CharlesColorMixing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CharlesColorMixing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B701D724BB170C00AB01F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22B701DC24BB170C00AB01F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B701DF24BB170C00AB01F0 /* CharlesColorMixing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CharlesColorMixing.entitlements; sourceTree = "<group>"; };
+		22B701E524BB17D600AB01F0 /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+		6313EDF43D311D25CA9CDDF9 /* Pods-CharlesColorMixing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharlesColorMixing.release.xcconfig"; path = "Target Support Files/Pods-CharlesColorMixing/Pods-CharlesColorMixing.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22B701CB24BB170600AB01F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCF11D86A300B57B43BAD5D /* Pods_CharlesColorMixing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22B701C524BB170600AB01F0 = {
+			isa = PBXGroup;
+			children = (
+				22B701D024BB170600AB01F0 /* CharlesColorMixing */,
+				22B701CF24BB170600AB01F0 /* Products */,
+				D1767C1C083C878CAF1185B3 /* Pods */,
+				25E1DD661BCDFD3DACE34FFA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22B701CF24BB170600AB01F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22B701CE24BB170600AB01F0 /* CharlesColorMixing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22B701D024BB170600AB01F0 /* CharlesColorMixing */ = {
+			isa = PBXGroup;
+			children = (
+				22B701D724BB170C00AB01F0 /* Assets.xcassets */,
+				22B701DC24BB170C00AB01F0 /* Info.plist */,
+				22B701E524BB17D600AB01F0 /* Main.cpp */,
+				22B701DF24BB170C00AB01F0 /* CharlesColorMixing.entitlements */,
+			);
+			path = CharlesColorMixing;
+			sourceTree = "<group>";
+		};
+		25E1DD661BCDFD3DACE34FFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0ADF0941D69DDA13A97E23C5 /* Pods_CharlesColorMixing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1767C1C083C878CAF1185B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04558EC6ADABBD0AD43D0288 /* Pods-CharlesColorMixing.debug.xcconfig */,
+				6313EDF43D311D25CA9CDDF9 /* Pods-CharlesColorMixing.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22B701CD24BB170600AB01F0 /* CharlesColorMixing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B701E224BB170C00AB01F0 /* Build configuration list for PBXNativeTarget "CharlesColorMixing" */;
+			buildPhases = (
+				A3DE92BA04BE33F17B7789D2 /* [CP] Check Pods Manifest.lock */,
+				22B701CA24BB170600AB01F0 /* Sources */,
+				22B701CB24BB170600AB01F0 /* Frameworks */,
+				22B701CC24BB170600AB01F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CharlesColorMixing;
+			productName = CharlesColorMixing;
+			productReference = 22B701CE24BB170600AB01F0 /* CharlesColorMixing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22B701C624BB170600AB01F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Charles Mac Pro";
+				TargetAttributes = {
+					22B701CD24BB170600AB01F0 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 22B701C924BB170600AB01F0 /* Build configuration list for PBXProject "CharlesColorMixing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22B701C524BB170600AB01F0;
+			productRefGroup = 22B701CF24BB170600AB01F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22B701CD24BB170600AB01F0 /* CharlesColorMixing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22B701CC24BB170600AB01F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B701D824BB170C00AB01F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A3DE92BA04BE33F17B7789D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CharlesColorMixing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22B701CA24BB170600AB01F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B701E624BB17D600AB01F0 /* Main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		22B701E024BB170C00AB01F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		22B701E124BB170C00AB01F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		22B701E324BB170C00AB01F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04558EC6ADABBD0AD43D0288 /* Pods-CharlesColorMixing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CharlesColorMixing/CharlesColorMixing.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GURSNXXGQK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				INFOPLIST_FILE = CharlesColorMixing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CharlesCanpany.CharlesColorMixing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22B701E424BB170C00AB01F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6313EDF43D311D25CA9CDDF9 /* Pods-CharlesColorMixing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CharlesColorMixing/CharlesColorMixing.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GURSNXXGQK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				INFOPLIST_FILE = CharlesColorMixing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CharlesCanpany.CharlesColorMixing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22B701C924BB170600AB01F0 /* Build configuration list for PBXProject "CharlesColorMixing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B701E024BB170C00AB01F0 /* Debug */,
+				22B701E124BB170C00AB01F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B701E224BB170C00AB01F0 /* Build configuration list for PBXNativeTarget "CharlesColorMixing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B701E324BB170C00AB01F0 /* Debug */,
+				22B701E424BB170C00AB01F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22B701C624BB170600AB01F0 /* Project object */;
+}
